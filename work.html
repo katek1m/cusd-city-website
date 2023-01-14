@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sustainable Mobility: City</title>
+    <link rel="stylesheet" href="styles/site.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;1,500&family=Archivo:wght@400;700&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">   <body>
+
+    <div>
+        <button aria-label="menu" id="hamburger">&#9776;</button>
+        <button aria-label="close menu" id="cross" class="hidden">&#735;</button>
+    </div>
+    
+    
+    <div class="full_header">
+        <a id="home-link" href="index.html">
+            <div class="logo_header">
+                <img id="cusd_logo" src="images/cusd_logo.svg" alt="">
+                <img id="mobility_logo" src="images/mobility_logo.png" alt="">
+                
+                <p id="logo-text" class="hidden">Sustainable Mobility: City</p>
+            </div>
+        </a>
+        
+        <nav id="desktop_nav" class="hidden">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="work.html">Our Work</a>
+                </li>
+
+                <li>
+                    <a href="apply.html">Apply</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav id="mobile_nav" class="hidden">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="work.html">Our Work</a>
+                </li>
+
+                <li>
+                    <a href="apply.html">Apply</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <div class="project_preview">
+        <div id="preview_description">
+            <p id="spaced-out">PROJECT SPOTLIGHT<p>
+
+            <h3 class="project_heading_medium">Seneca Parking Garage Signange Implementation</h3>
+            <p class="date_format">Spring 2019 - Current</p>
+            <p class="project_summary">Design a wayfinding system for the Downtown Ithaca garage that uses intuitive navigation, 
+                clear and informative signage, seamless payment and exiting, to inspire people to explore Ithaca.
+            </p>
+            <a id="garage-button" href="garage.html">Learn More</a>
+            </div>
+
+            <div class="slideshow">
+                <img class="slide fade rounded" src="images/garage_plan_2.jpg">
+                <img class="slide fade rounded" src="images/garage_plan.jpg">
+            </div>      
+    </div>
+    
+
+    <h3 class="active-projects-header">Active Projects</h3>
+    <div class="active-projects-row">
+    
+        <div class="revitalization_preview">
+            <img class="rounded bottom-margin" src="images/downtown.jpg">
+
+            <div>
+                <h3 class="project_heading">Ithaca Downtown Revitalization</h3>
+                <p class="date_format">Spring 2022 - Current</p>
+                <p class="project_summary_narrow">
+                    Design a solution to revitalize West State Street and Cherry Street, so as to increase the feeling of community, 
+                    decrease discomfort of those who visit it, while not driving out its current users.
+                </p>
+            </div>
+    
+        </div>
+
+        <div class="leed_preview">
+            <img class="rounded bottom-margin" src="images/usgbc.jpg">
+
+            <div>
+                <h3 class="project_heading">LEED City Certification</h3>
+                <p class="date_format">Fall 2022 - Current</p>
+                <p class="project_summary_narrow">
+                    Generate a plan for Ithaca to qualify for LEED Certification by performing a landscape assessment of publicly 
+                    accessible data and examining feasbility of certification.
+                </p>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/slideshow.js"></script>
+  </body>
+</html>
