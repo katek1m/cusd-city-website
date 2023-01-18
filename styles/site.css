@@ -111,10 +111,10 @@ img {
 
 
 #landing-wrapper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05)), url('../images/tcat-bus.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05)), url('../images/tcat-bus.jpeg');
     background-size:cover;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
-
 
 #centered_heading {
     font-family: 'Montserrat', sans-serif;
@@ -131,8 +131,6 @@ img {
     padding: 0 10px;
 }
 
-
-
 #emphasis {
     color: #3670e4d8;
     background-color: white;
@@ -143,9 +141,10 @@ img {
     display: block;
 }
 
-.sub_heading {
-    font-weight: 200;
-    font-size: 28px;
+#subheading {
+    font-size: 26px;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 #preview-summary {
@@ -157,6 +156,16 @@ img {
     line-height: 1.6em;
     margin-top: 60px;
     text-align: center;
+}
+
+.team_photos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 150px;
 }
 
 .header_text {
@@ -255,12 +264,17 @@ img {
     border: 2px solid rgb(52, 53, 55);
     font-weight: bold;
     padding: 10px 20px;
-    margin-bottom: 100px;
 }
 
 #garage-button:hover {
     color: white;
     background-color: black;
+}
+
+#entry_img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .active-projects-header {
@@ -439,11 +453,10 @@ img {
     }
 
     .img_container {
-        display: inline-block;
         border-radius: 5px;
         overflow: hidden;
         position:relative;
-        z-index:1;
+        height: 450px!important;;
     }
     
     .img_container img {
@@ -524,10 +537,11 @@ img {
     }
 
     .revitalization_preview {
-        padding: 20px 20px;
+        padding: 30px 20px;
         border-radius: 5px;
         max-width: 400px;
         border:1px solid rgba(0, 0, 0, 0.127);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     }
     
     .leed_preview {
@@ -536,6 +550,7 @@ img {
         border-radius: 5px;
         max-width: 400px;
         border:1px solid rgba(0, 0, 0, 0.127);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     }
 
     /* garage page */
@@ -611,13 +626,13 @@ img {
     .landing-block {
         display: flex;
         flex-direction: row;
-        column-gap: 40px;
+        column-gap: 20px;
         align-items: center;
         justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 150px;
+        margin-top: 10px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 40px;
     }
 
     #join-us {
@@ -626,14 +641,43 @@ img {
     }
     
     #join-us-head {
-        font-size: 23px;
+        font-size: 30px;
         line-height: 1.5em;
         margin-top: 0;
         text-align: left;
+        min-width: 530px;
     }
 
     .new-line {
         display: block;
+    }
+
+    #subheading {
+        margin-top: 120px;
+        font-size: 30px;
+    }
+
+    #join-us-text {
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 1000px;
+        line-height: 1.8em;
+    }
+
+    .team-photos {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 150px;
+    }
+
+    .team-photos img {
+        max-width: 300px;
     }
 
     .full_block {
