@@ -387,7 +387,7 @@ img {
         line-height: 1.7em;
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 40px;
     }
 
@@ -504,9 +504,6 @@ img {
     
 
 @media (min-width: 1000px) {
-    body {
-        margin-top: 40px;
-    }
 
     /* homepage */
 
@@ -556,7 +553,7 @@ img {
     }
 
     #entry_img {
-        margin-top: 70px;
+        margin-top: 100px;
     }
 
     /* garage page */
@@ -564,6 +561,10 @@ img {
         display: flex;
         flex-direction: row;
         column-gap: 40px;
+    }
+
+    .project_summary {
+        margin-bottom: 35px;
     }
 
     #garage-heading {
@@ -612,7 +613,6 @@ img {
 @media (min-width: 1200px) {
     nav ul li {
         list-style: none;
-        font-size: 20px;
     }
 
     #logo-text {
@@ -773,8 +773,8 @@ img {
         column-gap: 40px;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 150px;
+        margin-top: 0px;
+        margin-bottom: 100px;
     }
 
     #preview_description {
