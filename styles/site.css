@@ -141,16 +141,12 @@ img {
 }
 
 #subheading {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 0px;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.4em;
     text-align: center;
 }
-
-#local-container {
-    display: block;
-} 
 
 
 #preview-summary {
@@ -284,7 +280,7 @@ img {
 }
 
 .leed_preview {
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 /* apply page */
@@ -316,8 +312,6 @@ img {
     display: block;
     width: 80%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-
-    margin: 0 auto;
 }
 
 #apply-text {
@@ -385,8 +379,8 @@ img {
     body {
         font-size: 18px;
         line-height: 1.7em;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-top: 30px;
         margin-bottom: 40px;
     }
@@ -476,7 +470,7 @@ img {
     /* apply page */
     .apply {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         column-gap: 30px;
 
         align-items: center;
@@ -502,7 +496,6 @@ img {
    
 }
     
-
 @media (min-width: 1000px) {
 
     /* homepage */
@@ -522,6 +515,7 @@ img {
     #join-us {
         margin-bottom: 40px;
     }
+
 
     /* our work page */
     .active-projects-header {
@@ -611,6 +605,11 @@ img {
 }
 
 @media (min-width: 1200px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     nav ul li {
         list-style: none;
     }
@@ -781,9 +780,17 @@ img {
         min-width: 500px;
     }
 
+    /* apply page */
+    #passion {
+        width: 398px;
+    }
+
 }
 
-
+@media (min-width: 1396px) {
+    #apply-text {
+        padding: 25px 14px;
+    }
 
 @media (min-width: 1500px) {
     .apply {
