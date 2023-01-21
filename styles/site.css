@@ -286,10 +286,11 @@ img {
 /* apply page */
 
 #apply-heading {
-    font-size: 30px;
+    font-size: 33px;
     margin-top: 60px;
     margin-bottom: 35px;
     text-align: center;
+    line-height: 1.2em;
 }
 
 .no-top-margin {
