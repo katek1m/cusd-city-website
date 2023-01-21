@@ -7,7 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
-    margin: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* header */
@@ -59,7 +62,7 @@ nav a:hover {
     transition: all .3s ease;
 }
 
-#hamburger{
+#hamburger {
     background:none;
     position:absolute;
     top: 5px;
@@ -352,26 +355,6 @@ img {
 #objective ul {
     padding-left: 20px;
     line-height: 1.8em;
-}
-
-/* slideshow */
-
-.slideshow {
-    margin-top: 40px;
-}
-
-.slide {
-    display: none;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
 }
 
 /* responsive */
@@ -792,6 +775,7 @@ img {
     #apply-text {
         padding: 25px 14px;
     }
+}
 
 @media (min-width: 1500px) {
     .apply {
