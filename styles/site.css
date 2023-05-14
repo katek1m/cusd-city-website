@@ -25,11 +25,11 @@ body {
     height: 70px;
 }
 
-#logo-text {
+/* #logo-text {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     margin-left: 10px;
-}
+} */
 
 #home-link {
     text-decoration: none;
@@ -135,12 +135,12 @@ footer {
 }
 
 #part-one {
-    background-color: #537cce;
+    background-color: #3a9b7c;
     padding: 0 10px;
 }
 
 #emphasis {
-    color: #3670e4d8;
+    color: #238969;
     background-color: white;
     padding: 0 10px;
 }
